@@ -11,7 +11,7 @@
         <TextView
             android:id="@+id/play_list"
             style="@style/text_style"
-            android:text="Play List"/>
+            android:text="@string/play_list"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

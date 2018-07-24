@@ -11,7 +11,7 @@
         <TextView
             android:id="@+id/track"
             style="@style/text_style"
-            android:text="Tracks"/>
+            android:text="@string/tracks"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

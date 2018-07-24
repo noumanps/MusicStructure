@@ -11,7 +11,7 @@
         <TextView
             android:id="@+id/artist"
             style="@style/text_style"
-            android:text="Artists"/>
+            android:text="@string/artist"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

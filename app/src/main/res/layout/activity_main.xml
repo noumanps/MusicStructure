@@ -16,7 +16,18 @@
             android:id="@+id/header"
             style="@style/relative_style">
 
-            <TextView style="@style/text_style" />
+            <TextView
+                android:id="@+id/music_player"
+                style="@style/text_style"
+                android:text="Music Player"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/music_player"
+                android:src="@drawable/baseline_play_circle_outline_black_48"
+                android:layout_centerHorizontal="true"
+                android:tint="@android:color/white"
+                android:layout_margin="4dp"/>
 
         </RelativeLayout>
 

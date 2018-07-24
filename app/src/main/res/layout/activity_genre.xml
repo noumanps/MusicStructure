@@ -8,14 +8,45 @@
 
     <RelativeLayout style="@style/relative_style">
 
-        <TextView style="@style/text_style" />
-    </RelativeLayout>
-
-    <RelativeLayout style="@style/container_style">
-
         <TextView
+            android:id="@+id/genre"
+            style="@style/text_style"
+            android:text="Genre"/>
+        <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_style_black_36"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/genre"
+            android:layout_marginRight="8dp"
+            android:tint="@android:color/white"/>
     </RelativeLayout>
+
+    <RelativeLayout style="@style/container_style"/>
+
+    <LinearLayout style="@style/relative_style"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/play_list_click"
+            style="@style/bottom_text"
+            android:text="@string/play_list" />
+        <TextView
+            android:id="@+id/track_click"
+            style="@style/bottom_text"
+            android:text="@string/tracks" />
+        <TextView
+            android:id="@+id/album_click"
+            style="@style/bottom_text"
+            android:text="@string/albums"/>
+        <TextView
+            android:id="@+id/artist_click"
+            style="@style/bottom_text"
+            android:text="@string/artist"/>
+        <TextView
+            android:id="@+id/favorite_click"
+            style="@style/bottom_text"
+            android:text="@string/favorite"/>
+    </LinearLayout>
+
 
 </LinearLayout>
